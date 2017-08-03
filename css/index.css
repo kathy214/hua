@@ -1,0 +1,648 @@
+.top-banner{
+    background-color: #000;
+}
+/*shortcut start*/
+.shortcut{
+    background-color: #e3e4e5;
+    height: 30px;
+}
+.shortcut .w{
+    position: relative;
+}
+.shortcut .w .iconfont:first-child{
+    margin-left: 200px;
+}
+.shortcut .w i {
+    line-height: 30px;
+    color: red;
+}
+.shortcut .fr{
+    margin-right: 10px;
+}
+.shortcut span {
+    line-height: 30px;
+}
+.shortcut .fr li{
+    float: left;
+}
+.shortcut .fr .login {
+    margin-left: 5px;
+}
+.shortcut .fr .login a{
+    color: red;
+}
+.shortcut .fr li a{
+    line-height: 30px;
+}
+.shortcut .fr li.line{
+    height: 10px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 10px 10px;
+}
+.shortcut  .fr  .iconfont{
+    color: #666;
+    vertical-align: middle;
+}
+.shortcut .w .code{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+.shortcut .w .triangle{
+    position: absolute;
+    bottom: 0;
+    right: 31px;
+    height: 0;
+    width: 0;
+    border-color: transparent transparent red transparent;
+    border-width: 5px;
+    border-style: solid;
+}
+/*shortcut end*/
+
+/*导航部分开始*/
+.nav{
+    height: 140px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    bottom: 0;
+    width: 190px;
+    height: 170px;
+    background: url("../img/logo_03.jpg") no-repeat ;
+    box-shadow:2px 3px 10px 2px;
+}
+.nav .search{
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    top: 30px;
+    left: 320px;
+}
+.nav .search input{
+    height: 35px;
+}
+.nav .search .camera{
+    height: 20px;
+    width: 20px;
+    background:  url(../img/sprite-photo-search.png)  no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 65px;
+    cursor: pointer;
+}
+.nav .search .camera:hover{
+    background:  url(../img/sprite-photo-search.png) -30px 0  no-repeat;
+}
+.nav .search input.fl{
+    padding: 5px;
+    width: 500px;
+    border: 1px solid red;
+}
+.nav .search input.fr{
+    width: 50px;
+    background-color: red;
+    color: #fff;
+}
+.nav .car{
+    width: 190px;
+    height: 35px;
+    position: absolute;
+    top: 30px;
+    right: 95px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.nav .car .iconfont{
+    color: red;
+    line-height: 35px;
+    font-size: 14px;
+}
+.nav .car s{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: 35px;
+}
+.depreciate{
+    position: absolute;
+    top: 70px;
+    left: 320px;
+}
+.depreciate li{
+    float: left;
+    margin-right: 10px;
+}
+.depreciate li:first-child a{
+    color: red;
+}
+.nav .favorable{
+    position: absolute;
+    left: 230px;
+    bottom: 10px;
+}
+.nav .favorable li{
+    float: left;
+    margin: 0 15px ;
+}
+.nav .favorable li a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav .favorable li.line{
+    height: 10px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 5px;
+}
+.nav .bm{
+    width: 30px;
+    height: 18px;
+    position: absolute;
+    bottom: 20px;
+    right: -10px;
+}
+.nav .famle{
+    width: 190px;
+    height: 40px;
+    background: url(../img/famle.png) no-repeat;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+/*导航部分结束*/
+
+/*中间部分开始*/
+.sale .ele{
+    width: 190px;
+    background-color: #6e6568;
+    height:480px ;
+    color: #fff;
+}
+.sale .ele ul{
+    padding: 10px 10px 5px ;
+}
+.sale .ele ul li{
+    margin: 10px 0;
+}
+.sale .ele li a{
+    color: #fff;
+    margin: 10px;
+    font-size: 16px;
+}
+.sale .center{
+    width: 800px;
+}
+.sale .figure{
+    width: 790px;
+    height: 340px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background:  url(../img/figure.jpg) 0 0 no-repeat;
+}
+.sale .figure .arrow{
+    width: 100%;
+    height: 60px;
+    /*background-color: #fff;*/
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    display: none;
+}
+.sale .figure .arrow .arr-l,
+.sale .figure .arrow .arr-r{
+    width: 30px;
+    height: 60px;
+    background-color:rgba(0,0,0,.3);
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.sale .figure:hover .arrow{
+    display: block;
+}
+.sale .figure .circle{
+    background-color: #fff;
+    opacity: .5;
+    width: 185px;
+    height: 25px;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+}
+.sale .figure .circle .inside li a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    background-color: #E91E63;
+    margin: 8px 6px;
+    display: block;
+}
+.sale .figure .circle .inside li .col-green{
+    background-color: #55a532;
+}
+.sale .right{
+    width: 190px;
+    height: 480px;
+    background-color: lightpink;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.sale .right .no-logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px  solid #c9a65b;
+    box-sizing: border-box;
+
+}
+.sale .right .in-logo{
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background:  url(../img/no_login.jpg) 0 0 no-repeat;
+}
+.sale .right .welcome{
+    /*overflow: hidden;*/
+}
+.sale .right .welcome p{
+    width: 8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 30px;
+}
+.sale .right .new a{
+    height: 20px;
+    width: 70px;
+    border: 2px solid #f00;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #f00;
+    float: left;
+    margin: 15px 10px;
+}
+.sale .right .new a:hover{
+    color: #fff;
+    background-color: #f00;
+}
+.sale .right .ann{
+    border-top: 1px solid #ccc;
+}
+.sale .right .ann .con{
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+}
+.ann .con p{
+    font-size: 14px;
+    height: 25px;
+}
+.ann .con p.fl a{
+    float: left;
+    /*margin-bottom: 5px;*/
+    line-height: 25px;
+}
+.ann .con p .line{
+    float: left;
+    width: 1px;
+    height: 18px;
+    background-color: #ccc;
+    margin:0 5px;
+    line-height: 25px;
+}
+.ann .con p.fr{
+    line-height: 25px;
+}
+.ann .con p a:first-child{
+    border-bottom: 2px solid #f00;
+}
+.sale .right .favo li{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sale .right .favo li a{
+    font-size: 14px;
+}
+.sale .right .way{
+    margin-top: 8px;
+}
+.sale .right .way ul{
+    border-top: 1px solid #ccc;
+}
+.sale .right .way ul li{
+    border-right: 1px solid #ccc;
+    float: left;
+}
+.sale .right .way ul li:last-child{
+    border-right: 1px solid transparent;
+}
+.sale .right .way ul li i{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin:6px  10px;
+}
+.sale .right .way ul li a{
+    margin: 0 10px;
+}
+
+.sale .right .way ul .one{
+    background: url(../img/sprite_fs@1x.png) 0 -87px  no-repeat;
+}
+.sale .right .way ul .two{
+    background: url(../img/sprite_fs@1x.png) 0 -45px  no-repeat;
+
+}
+.sale .right .way ul .three{
+    background: url(../img/sprite_fs@1x.png) -45px -88px  no-repeat;
+}
+.sale .right .way ul .four{
+    background: url(../img/sprite_fs@1x.png) -85px 0  no-repeat;
+}
+.sale .col-purple{
+    height: 130px;
+    width: 390px;
+    background-color: purple;
+    float: left;
+    margin: 0 10px;
+}
+.sale .col-orange{
+    height: 130px;
+    width: 390px;
+    background-color: orange;
+    float: left;
+}
+
+/*中间部分结束*/
+
+/*秒杀开始*/
+.seckill{
+    height: 55px;
+    background:  url(../img/seckill_hd.png) ;
+    margin-top: 12px;
+}
+.seckill .triangle{
+    height: 24px;
+    width: 19px;
+    background:  url(../img/seckill.png) -195px 0 no-repeat ;
+    margin-top: -4px;
+    margin-left: 4px;
+    float: left;
+}
+.seckill .clock{
+    height: 35px;
+    width: 32px;
+    background:  url(../img/seckill.png) 0  -46px  no-repeat ;
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.seckill h1{
+    font-family: "fzz";
+    font-size: 24px;
+    color: #fff;
+    line-height: 55px;
+    float: left;
+    margin-left: 10px;
+}
+.seckill p{
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    color: #fff;
+}
+.seckill p .icon{
+    float: right;
+    background:  url(../img/seckill.png) -148px  -40px  no-repeat ;
+    height: 20px;
+    width: 20px;
+}
+.seckill .right{
+    margin-right: 20px;
+    margin-top: 10px;
+    /*overflow: hidden;*/
+}
+/*************/
+.seckill .right span{
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 50px;
+    /*margin-top: 10px;*/
+}
+/*******************/
+.seckill .right .time{
+    margin: 0 10px;
+}
+.seckill .right .time .number{
+    width: 36px;
+    height: 38px;
+    background-color: #000;
+    opacity: .5;
+    border-radius: 5px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    color: #f90013;
+    font-weight: 700;
+}
+.seckill .right .time .symbol{
+    color: #000;
+    opacity: .5;
+    line-height: 38px;
+    font-size: 31px;
+    font-weight: 700;
+    margin: 0 2px;
+}
+.show{
+    margin-top: 20px;
+    position: relative;
+}
+.show i{
+    display: block;
+    width: 130px;
+    height: 10px;
+    margin: 10px auto;
+    background:  url(../img/seckill.png) -20px  -10px  no-repeat;
+}
+.show ul li{
+    float: left;
+    border-right: 1px solid #ccc;
+
+}
+.show ul li a{
+    display: block;
+    width: 130px;
+    height: 130px;
+    background:  url(../img/zzj.jpg) no-repeat;
+    margin: 0 auto;
+}
+.show ul li p{
+    text-align: center;
+    margin: 13px 14px;
+}
+.show ul li .money{
+    color: #f00;
+    font-size: 14px;
+}
+.show ul li .money span.new{
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.show ul li .money .old{
+    color: #ccc;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.show img.fr{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+    /*秒杀结束*/
+
+/*底部开始*/
+.foot{
+    margin-top: 40px;
+    background-color: #e3e4e5;
+}
+.foot .sercive{
+    height: 105px;
+}
+
+.foot .sercive   li {
+    margin: 40px;
+    padding-left: 50px;
+    height: 43px;
+    line-height: 43px;
+    float:  left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.foot .sercive .s-one{
+    background:  url(../img/ico_service.png)  no-repeat;
+}
+.foot .sercive .s-two{
+    background:  url(../img/ico_service.png)0 -43px  no-repeat;
+}
+.foot .sercive .s-three{
+    background:  url(../img/ico_service.png) 0 -86px no-repeat;
+}
+.foot .sercive .s-four{
+    background:  url(../img/ico_service.png)0 -129px  no-repeat;
+}
+/*帮助开始*/
+.foot .help{
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc ;
+    padding: 25px 0;
+}
+.foot .help ul{
+    float: left;
+    margin-right: 135px;
+}
+.foot .help ul li{
+    margin-bottom: 2px;
+}
+.foot .help ul li:first-child{
+    margin-bottom: 5px;
+}
+.foot .help ul li:first-child a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+.help .w .map{
+    float: right;
+    height: 150px;
+    width: 200px;
+    background:  url(../img/ico_footer.png) 0 0 no-repeat;
+    /*text-align: center;*/
+}
+.help .w .map h3{
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+.help .w .map p{
+    width: 180px;
+    text-align: center;
+    margin-top: 20px;
+}
+.help .w .map a{
+    float: right;
+    margin-right: 20px;
+}
+/*帮助结束*/
+
+/*友情链接开始*/
+.foot .friendlink ul{
+    margin: 20px;
+}
+.foot  .friendlink{
+    overflow: hidden;
+}
+.foot  .friendlink p{
+    text-align: center;
+    margin-bottom: 3px;
+}
+.foot .friendlink ul li{
+    line-height: 14px;
+    float: left;
+}
+.foot .friendlink .line{
+    width: 1px;
+    height: 14px;
+    background-color: #666;
+    margin:  0 10px;
+}
+.friendlink .f{
+    margin: 20px 280px;
+}
+.friendlink .f a{
+    float: left;
+    width: 105px;
+    height: 32px;
+}
+.friendlink .f .f-1{
+    background:  url(../img/ico_footer.png) 0 -155px no-repeat;
+}
+.friendlink .f .f-2{
+    background:  url(../img/ico_footer.png) -105px  -155px no-repeat;
+}
+.friendlink .f .f-3{
+    background:  url(../img/ico_footer.png) 0  -185px no-repeat;
+}
+.friendlink .f .f-4{
+    background:  url(../img/ico_footer.png) -105px  -185px no-repeat;
+}
+.friendlink .f .f-5{
+    background:  url(../img/ico_footer.png) left  bottom no-repeat;
+}
+.friendlink .f .f-6{
+    background:  url(../img/ico_footer.png) -105px  -220px no-repeat;
+}
+/*友情链接结束*/
+/*底部结束*/
